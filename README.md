@@ -59,9 +59,18 @@ The following example creates a table called "Persons" that contains five column
 
 
 4. ALTER
+- The `ALTER TABLE` statement is used to add, delete, or modify columns in an existing table.
+
+To add a column in a table, use the following syntax
 <pre>
 <b>ALTER TABLE</b> table_name <b>ADD</b> column_name datatype ; 
 </pre>
+
+To delete a column in a table, use the following syntax
+<pre>
+<b>ALTER TABLE </b> table_name <b>DROP COLUMN</b> column_name;
+</pre>
+
 
 5. TRUNCATE
 <pre>

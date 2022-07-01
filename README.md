@@ -356,3 +356,5 @@ AVG( [ALL|DISTINCT] expression )
 ```
 
 
+## References
+- [TechTarget] (https://www.techtarget.com/searchdatamanagement/definition/SQL)

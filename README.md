@@ -25,16 +25,33 @@ Example
 </pre>
 The following SQL statement creates a database called "testDB":
 
+
 2. USE DATABASE
 <pre>
 <b>USE</b> database_name 
 </pre>
-The following SQL statement use a database
+Example
+<pre>
+<b>USE</b> testDB;
+</pre>
+The following SQL select testDB database
+
 
 3. CREATE TABLE
 <pre>
 <b>CREATE TABLE</b> table_name (column1 datatype, column2 datatype, .......) ;
 </pre>
+Example
+<pre>
+<b>CREATE TABLE</b> Persons (
+    PersonID int
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+</pre>
+
 
 4. ALTER
 <pre>

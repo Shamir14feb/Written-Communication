@@ -19,11 +19,17 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 <pre>
 <b>CREATE DATABASE</b> database_name ; 
 </pre>
+   - Example
+   <pre>
+   <b>CREATE DATABASE</b> testDB;
+   </pre>
+The following SQL statement creates a database called "testDB":
 
 2. USE DATABASE
 <pre>
 <b>USE</b> database_name 
 </pre>
+The following SQL statement use a database
 
 3. CREATE TABLE
 <pre>

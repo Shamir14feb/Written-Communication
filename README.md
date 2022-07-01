@@ -139,14 +139,25 @@ Example
 <b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (2,'Svendson','Tove','Borgvn 23','Sandnes');
 <b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (3,'Pettersen','Kari','Storgt 20','Stavanger');
 </pre>
-![Screenshot](https://github.com/Shamir14feb/Written-Communication/blob/main/Screenshot%20Insert%20Table.png?raw=true)
 
 
 2. SELECT
+- The SELECT statement is used to select data from a database.
+- The data returned is stored in a result table, called the result-set.
 <pre>
 <b>SELECT</b> column1, column2, ....
 <b>FROM</b> table_name;
 </pre>
+Here, column1, column2, ... are the field names of the table you want to select data from. If you want to select all the fields available in the table, use the following syntax:
+<pre>
+<b>SELECT * FROM</b> table_name;
+</pre>
+Example
+<pre>
+<b>SELECT * FROM</b> Persons;
+</pre>
+The following SQL statement selects ALL the columns from the "Customers" table:
+![Screenshot](https://github.com/Shamir14feb/Written-Communication/blob/main/Screenshot%20Insert%20Table.png?raw=true)
 
 3. UPDATE
 <pre>

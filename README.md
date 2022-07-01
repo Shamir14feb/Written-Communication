@@ -141,7 +141,7 @@ Example
 </pre>
 
 
-2. SELECT
+#### SELECT
 - The `SELECT` statement is used to select data from a database.
 - The data returned is stored in a result table, called the result-set.
 <pre>
@@ -159,7 +159,7 @@ Example
 The following SQL statement selects ALL the columns from the "Persons" table:
 ![Screenshot](https://github.com/Shamir14feb/Written-Communication/blob/main/Screenshot%20Insert%20Table.png?raw=true)
 
-3. UPDATE
+#### UPDATE
 - The `UPDATE` statement is used to modify the existing records in a table.
 <pre>
 <b>UPDATE</b> table_name
@@ -167,9 +167,25 @@ The following SQL statement selects ALL the columns from the "Persons" table:
 <b>WHERE</b> condition;
 </pre>
 
-4. DELETE
+#### DELETE
 - The `DELETE` statement is used to delete existing records in a table.
 <pre>
 <b>DELETE FROM</b> table_name
 <b>WHERE</b> condition;
 </pre>
+
+### SQL JOINS
+A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them.
+A SQL Join is a special form of generating a meaningful data by combining multiple tables relate to each other using a “Key”. Typically, relational tables must be designed with a unique column and this column is used to create relationships with one or more other tables. When you need a result-set that includes related rows from multiple tables, you’ll need to use SQL join on this column 
+
+ The various SQL join types are as follows
+
+   1. SQL inner join
+       a. Equi join
+       b. Non-equi join (Theta join) 
+   2. SQL outer join
+       a. SQL left join or left outer join
+       b. SQL right join or right outer join
+       c. SQL full join or full outer join 
+   3. SQL cross join
+   4. SQL self join 

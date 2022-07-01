@@ -289,7 +289,7 @@ Various types of SQL aggregate functions are:
 - Min()
 - Max()
 
-#### COUNT() Function
+### COUNT() Function
 
 The `COUNT()` function returns the number of rows in a database table.
 
@@ -302,7 +302,7 @@ or
 COUNT( [ALL|DISTINCT] expression )  
 ```
 
-#### SUM() Function
+### SUM() Function
 
 The `SUM()` function returns the total sum of a numeric column.
 
@@ -315,7 +315,7 @@ or
 SUM( [ALL|DISTINCT] expression )  
 ```
 
-#### AVG() Function
+### AVG() Function
 
 The `AVG()` function calculates the average of a set of values.
 
@@ -342,7 +342,7 @@ MIN( [ALL|DISTINCT] expression )
 ```
 
 
-#### MAX() Function
+### MAX() Function
 
 The `MAX()` aggregate function returns the highest value (maximum) in a set of non-NULL values.
 

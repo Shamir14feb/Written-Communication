@@ -32,29 +32,31 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 
 4. ALTER
 <pre>
-**ALTER TABLE** table_name **ADD** column_name datatype ; 
+<b>ALTER TABLE</b> table_name <b>ADD</b> column_name datatype ; 
 </pre>
 
 5. TRUNCATE
 <pre>
-**TRUNCATE TABLE** table_name ; 
+<b>TRUNCATE TABLE</b> table_name ; 
 </pre>
 
 6. DROP
 <pre>
-**DROP TABLE** table_name
+<b>DROP TABLE</b> table_name
 </pre>
 
 7. RENAME
 <pre>
-**RENAME TABLE** table_name **TO** new_table_name ;
+<b>RENAME TABLE</b> table_name <b>TO</b> new_table_name ;
 </pre>
 
 8. COMMENT
   - Single Line Comments
-  ``` --Line1; ```
+  ``` 
+  --Line1; 
+  ```
   - Multi-Line Comments
   ``` 
-  /\* Line1,
-       Line2\*/ 
-       ```
+    /* Line1,
+       Line2*/ 
+  ```

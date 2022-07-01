@@ -15,48 +15,74 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 
 ### Syntax help
 
-####1. Create Database
+1. CREATE DATABASE
 <pre>
 <b>CREATE DATABASE</b> database_name ; 
 </pre>
 
-####2. Use Database
+2. USE DATABASE
 <pre>
 <b>USE</b> database_name 
 </pre>
 
-####3. Create Table
+3. CREATE TABLE
 <pre>
 <b>CREATE TABLE</b> table_name (column1 datatype, column2 datatype, .......) ;
 </pre>
 
-####4. ALTER
+4. ALTER
 <pre>
 <b>ALTER TABLE</b> table_name <b>ADD</b> column_name datatype ; 
 </pre>
 
-####5. TRUNCATE
+5. TRUNCATE
 <pre>
 <b>TRUNCATE TABLE</b> table_name ; 
 </pre>
 
-####6. DROP
+6. DROP
 <pre>
 <b>DROP TABLE</b> table_name
 </pre>
 
-####7. RENAME
+7. RENAME
 <pre>
 <b>RENAME TABLE</b> table_name <b>TO</b> new_table_name ;
 </pre>
 
-####8. COMMENT
-   #####- Single Line Comments
+8. COMMENT
+   - Single Line Comments
   ``` 
   --Line1; 
   ```
-   #####- Multi-Line Comments
+   - Multi-Line Comments
   ``` 
     /* Line1,
        Line2*/ 
   ```
+
+###DLM Commands Syntax
+
+1. INSERT 
+<pre>
+<b>INSERT INTO</b> table_name (column1, column2, ....) <b>VALUES</b> (value1, value2, ....);
+</pre>
+
+2. SELECT
+<pre>
+<b>SELECT</b> column1, column2, ....
+<b>FROM</b> table_name;
+</pre>
+
+3. UPDATE
+<pre>
+<b>UPDATE</b> table_name
+<b>SET</b> column1 = value1, column2 = value2
+<b>WHERE</b> condition;
+</pre>
+
+4. DELETE
+<pre>
+<b>DELETE FROM</b> table_name
+<b>WHERE</b> condition;
+</pre>

@@ -198,7 +198,7 @@ A SQL Join is a special form of generating a meaningful data by combining multip
 
 The result of the SQL inner join includes rows from both the tables where the join conditions are met.
 
-![](https://www.sqlshack.com/wp-content/uploads/2018/09/word-image-253a.png);
+![image](https://user-images.githubusercontent.com/48542354/176908477-ef6b8e26-7ed3-48b5-a455-041ad886dd31.png)
 
 
 Syntax:
@@ -215,3 +215,63 @@ An equi join is the most common form of SQL inner join used in practice. If the 
 #### Theta join (Non-equi join)
 
 In general, this a Theta join used to specify operators or conditions (the ON clause in SQL). In practice, this is a rarely used SQL join types. In most cases, the join will use a non-equality condition e.g. `>`
+
+
+#### SQL self join
+ A SQL Self join is a mechanism of joining a table to itself. You would use a self join when you wanted to create a result set joining records in the table with some other records from the same table.
+
+![image](https://user-images.githubusercontent.com/48542354/176908418-07086c9c-c9e4-401e-b2cf-5bdf01ccf226.png)
+
+
+#### SQL cross join
+
+A CROSS join returns all rows for all possible combinations of two tables. It generates all the rows from the left table which is then combined with all the rows from the right table. This type of join is also known as a Cartesian product(A*B).
+
+For example, if the left table has 100 rows and the right table has 100 then the cross join result will yield 10,000 rows. 
+
+![image](https://user-images.githubusercontent.com/48542354/176908791-4548e52f-3c32-45c0-bfb0-8764f83b4fa6.png)
+
+#### SQL outer join
+
+On joining tables with a SQL inner join, the output returns only matching rows from both the tables. When using a SQL outer join, not only it will list the matching rows, it will also list the unmatched rows from the other tables. 
+
+![image](https://user-images.githubusercontent.com/48542354/176908936-838daf0a-56f0-4caf-a681-e304b3c03cf4.png)
+
+#### Outer Join
+ A SQL outer join, as you might expect by now, will return all the rows in both tables. When rows don’t have a match in one of the tables, the field will display a null value. A full SQL outer join combines the effects of the SQL left joins and SQL right joins. Many databases do not support the implementation of full SQL outer joins
+ 
+ ![image](https://user-images.githubusercontent.com/48542354/176910071-a9904754-cf56-4549-8dfa-4f96151acd72.png)
+
+Syntax:
+<pre>
+<b>SELECT</b> ColumnList <b>FROM</b> LeftTable L
+<b>FULL OUTER JOIN</b>  RightTable R
+<b>ON</b> L.Column=R.Column
+</pre>
+
+#### Left Outer Join
+A SQL left outer join will return all the records from the left table in the join clause, regardless of matching records in the right table. The left SQL outer join includes rows where the condition is met plus all the rows from the table on the left where the condition is not met. Fields from the right table with no match will be displayed as null values. 
+
+![image](https://user-images.githubusercontent.com/48542354/176908974-354e8fb5-5c36-4149-9f25-ddd296622549.png)
+
+Syntax:
+<pre>
+<b>SELECT</b> ColumnList <b>FROM</b> LeftTable L
+<b>LEFT JOIN</b>  RightTable R
+<b>ON</b> L.Column=R.Column
+<b>WHERE</b> R.Column is <b>NULL</b>
+</pre>
+
+#### Right Outer Join
+A right outer join will return all the records in the right table in the join clause, regardless of matching records in the left table. Using the right SQL outer join includes all the rows from the table on the right. The right SQL outer join is considered a special case and many databases don’t support right joins. Generally, a SQL right join can be rewritten as a SQL left join by simply changing the order of the tables in the query. In this instance, fields from the left table with no match will display null values 
+
+![image](https://user-images.githubusercontent.com/48542354/176909579-d4136ff3-8dc0-427a-a0a3-e6891fb60142.png)
+
+Syntax:
+<pre>
+<b>SELECT</b> ColumnList <b>FROM</b> LeftTable L
+<b>RIGHT JOIN</b>  RightTable R
+<b>ON</b> L.Column=R.Column
+<b>WHERE</b> R.Column is <b>NULL</b>
+</pre>
+

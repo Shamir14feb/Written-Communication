@@ -139,7 +139,7 @@ Example
 <b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (2,'Svendson','Tove','Borgvn 23','Sandnes');
 <b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (3,'Pettersen','Kari','Storgt 20','Stavanger');
 </pre>
-![Screenshot](/Screenshot Insert Table.png)
+![Screenshot](../Screenshot Insert Table.png)
 
 
 2. SELECT

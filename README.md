@@ -15,47 +15,47 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 
 ### Syntax help
 
-1. Create Database
+####1. Create Database
 <pre>
 <b>CREATE DATABASE</b> database_name ; 
 </pre>
 
-2. Use Database
+####2. Use Database
 <pre>
 <b>USE</b> database_name 
 </pre>
 
-3. Create Table
+####3. Create Table
 <pre>
 <b>CREATE TABLE</b> table_name (column1 datatype, column2 datatype, .......) ;
 </pre>
 
-4. ALTER
+####4. ALTER
 <pre>
 <b>ALTER TABLE</b> table_name <b>ADD</b> column_name datatype ; 
 </pre>
 
-5. TRUNCATE
+####5. TRUNCATE
 <pre>
 <b>TRUNCATE TABLE</b> table_name ; 
 </pre>
 
-6. DROP
+####6. DROP
 <pre>
 <b>DROP TABLE</b> table_name
 </pre>
 
-7. RENAME
+####7. RENAME
 <pre>
 <b>RENAME TABLE</b> table_name <b>TO</b> new_table_name ;
 </pre>
 
-8. COMMENT
-  - Single Line Comments
+####8. COMMENT
+   #####- Single Line Comments
   ``` 
   --Line1; 
   ```
-  - Multi-Line Comments
+   #####- Multi-Line Comments
   ``` 
     /* Line1,
        Line2*/ 

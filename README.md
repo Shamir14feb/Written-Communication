@@ -188,3 +188,4 @@ A SQL Join is a special form of generating a meaningful data by combining multip
     - SQL full join or full outer join 
 3. SQL cross join
 4. SQL self join 
+![image](https://user-images.githubusercontent.com/48542354/176902886-e940ffcd-93eb-4418-8138-a549acbe3130.png)

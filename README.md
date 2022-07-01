@@ -275,3 +275,84 @@ Syntax:
 <b>WHERE</b> R.Column is <b>NULL</b>
 </pre>
 
+### SQL Aggregate Functions
+
+An aggregate function in SQL performs a calculation on multiple values and returns a single value. SQL provides many aggregate functions that include avg, count, sum, min, max, etc. An aggregate function ignores NULL values when it performs the calculation, except for the count function. 
+
+An aggregate function in SQL returns one value after calculating multiple values of a column. We often use aggregate functions with the GROUP BY and HAVING clauses of the SELECT statement.
+
+Various types of SQL aggregate functions are:
+
+- Count()
+- Sum()
+- Avg()
+- Min()
+- Max()
+
+#### COUNT() Function
+
+The `COUNT()` function returns the number of rows in a database table.
+
+Syntax:
+```
+COUNT(*)
+```
+or  
+```
+COUNT( [ALL|DISTINCT] expression )  
+```
+
+#### SUM() Function
+
+The `SUM()` function returns the total sum of a numeric column.
+
+Syntax:
+```
+SUM()  
+```
+or  
+```
+SUM( [ALL|DISTINCT] expression )  
+```
+
+#### AVG() Function
+
+The `AVG()` function calculates the average of a set of values.
+
+Syntax:
+```
+AVG()
+```
+or  
+```
+AVG( [ALL|DISTINCT] expression )  
+```
+
+### MIN() Function
+
+The `MIN()` aggregate function returns the lowest value (minimum) in a set of non-NULL values.
+
+Syntax:
+```
+MIN()  
+```
+or  
+```
+MIN( [ALL|DISTINCT] expression )  
+```
+
+
+#### MAX() Function
+
+The `MAX()` aggregate function returns the highest value (maximum) in a set of non-NULL values.
+
+Syntax:
+```
+AVG()  
+```
+or  
+```
+AVG( [ALL|DISTINCT] expression )  
+```
+
+

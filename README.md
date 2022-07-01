@@ -15,7 +15,7 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 
 ### Syntax help
 
-####CREATE DATABASE
+#### CREATE DATABASE
 <pre>
 <b>CREATE DATABASE</b> database_name ; 
 </pre>
@@ -26,7 +26,7 @@ Example
 The following SQL statement creates a database called "testDB":
 
 
-####USE DATABASE
+#### USE DATABASE
 <pre>
 <b>USE</b> database_name 
 </pre>
@@ -37,7 +37,7 @@ Example
 The following SQL select testDB database
 
 
-####CREATE TABLE
+#### CREATE TABLE
 <pre>
 <b>CREATE TABLE</b> table_name (column1 datatype, column2 datatype, .......) ;
 </pre>
@@ -58,7 +58,7 @@ The following example creates a table called "Persons" that contains five column
 ![Screenshot](https://github.com/Shamir14feb/Written-Communication/blob/main/Screenshot%20Create%20Table.png?raw=true)
 
 
-####ALTER
+#### ALTER
 - The `ALTER TABLE` statement is used to add, delete, or modify columns in an existing table.
 
 To add a column in a table, use the following syntax
@@ -78,7 +78,7 @@ To change the data type of a column in a table, use the following syntax:
 
 
 
-####TRUNCATE
+#### TRUNCATE
 <pre>
 <b>TRUNCATE TABLE</b> table_name ; 
 </pre>
@@ -86,7 +86,7 @@ The TRUNCATE TABLE command deletes the data inside a table, but not the table it
 
 
 
-####DROP
+#### DROP
 <pre>
 <b>DROP TABLE</b> table_name
 </pre>
@@ -94,7 +94,7 @@ The DROP TABLE command deletes a table in the database.
 
 
 
-####RENAME
+#### RENAME
 <pre>
 <b>RENAME TABLE</b> table_name <b>TO</b> new_table_name ;
 </pre>
@@ -102,15 +102,15 @@ The DROP TABLE command deletes a table in the database.
 
 
 
-####COMMENT
-   #####Single Line Comments
+#### COMMENT
+   ##### Single Line Comments
    - Single line comments start with `--`.
    - Any text between `--` and the end of the line will be ignored (will not be executed).
   ``` 
   --Line1; 
   ```
   
-   #####Multi-Line Comments
+   ##### Multi-Line Comments
    - Any text between `/*` and `*/` will be ignored.
    - Multi-line comments start with `/*` and end with `*/`.
   ``` 
@@ -120,7 +120,7 @@ The DROP TABLE command deletes a table in the database.
 
 
 
-###DLM Commands Syntax
+### DLM Commands Syntax
 
 1. INSERT 
 <pre>

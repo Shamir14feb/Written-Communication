@@ -52,9 +52,9 @@ Example
 );
 </pre>
 The following example creates a table called "Persons" that contains five columns: PersonID, LastName, FirstName, Address, and City:
--The PersonID column is of type int and will hold an integer.
--The LastName, FirstName, Address, and City columns are of type varchar and will hold characters, and the maximum length for these fields is 255 characters.
--The empty "Persons" table will now look like this:
+- The PersonID column is of type int and will hold an integer.
+- The LastName, FirstName, Address, and City columns are of type varchar and will hold characters, and the maximum length for these fields is 255 characters.
+- The empty "Persons" table will now look like this:
 
 
 4. ALTER

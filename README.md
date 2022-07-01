@@ -358,3 +358,5 @@ AVG( [ALL|DISTINCT] expression )
 
 ## References
 - [TechTarget](https://www.techtarget.com/searchdatamanagement/definition/SQL)
+- [YouTube](https://www.youtube.com/watch?v=HXV3zeQKqGY)
+- [W3School](https://www.w3schools.com/sql/)

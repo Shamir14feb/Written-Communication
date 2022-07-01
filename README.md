@@ -71,6 +71,11 @@ To delete a column in a table, use the following syntax
 <b>ALTER TABLE </b> table_name <b>DROP COLUMN</b> column_name;
 </pre>
 
+To change the data type of a column in a table, use the following syntax:
+<pre>
+<b>ALTER TABLE</b> table_name <b>MODIFY COLUMN</b> column_name datatype;
+</pre>
+
 
 5. TRUNCATE
 <pre>

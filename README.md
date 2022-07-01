@@ -21,34 +21,34 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 </pre>
 
 2. Use Database
-``` 
-USE database_name 
-```
+<pre>
+<b>USE</b> database_name 
+</pre>
 
 3. Create Table
-``` 
-**CREATE TABLE** table_name (column1 datatype, column2 datatype, .......) ;
-```
+<pre>
+<b>CREATE TABLE</b> table_name (column1 datatype, column2 datatype, .......) ;
+</pre>
 
 4. ALTER
-``` 
+<pre>
 **ALTER TABLE** table_name **ADD** column_name datatype ; 
-```
+</pre>
 
 5. TRUNCATE
-``` 
+<pre>
 **TRUNCATE TABLE** table_name ; 
-```
+</pre>
 
 6. DROP
-``` 
+<pre>
 **DROP TABLE** table_name
-```
+</pre>
 
 7. RENAME
-``` 
+<pre>
 **RENAME TABLE** table_name **TO** new_table_name ;
-```
+</pre>
 
 8. COMMENT
   - Single Line Comments

@@ -160,6 +160,7 @@ The following SQL statement selects ALL the columns from the "Customers" table:
 ![Screenshot](https://github.com/Shamir14feb/Written-Communication/blob/main/Screenshot%20Insert%20Table.png?raw=true)
 
 3. UPDATE
+- The UPDATE statement is used to modify the existing records in a table.
 <pre>
 <b>UPDATE</b> table_name
 <b>SET</b> column1 = value1, column2 = value2
@@ -167,6 +168,7 @@ The following SQL statement selects ALL the columns from the "Customers" table:
 </pre>
 
 4. DELETE
+- The DELETE statement is used to delete existing records in a table.
 <pre>
 <b>DELETE FROM</b> table_name
 <b>WHERE</b> condition;

@@ -191,3 +191,27 @@ A SQL Join is a special form of generating a meaningful data by combining multip
 
 
 ![image](https://user-images.githubusercontent.com/48542354/176902886-e940ffcd-93eb-4418-8138-a549acbe3130.png)
+
+
+#### SQL Inner Join
+ The simplest and most common form of a join is the SQL inner join the default of the SQL join types used in most database management systems. It’s the default SQL join you get when you use the join keyword by itself.
+
+The result of the SQL inner join includes rows from both the tables where the join conditions are met.
+
+![](https://www.sqlshack.com/wp-content/uploads/2018/09/word-image-253a.png);
+
+
+Syntax:
+<pre>
+<b>SELECT</b> ColumnList <b>FROM</b> LeftTable L
+<b>INNER JOIN</b>  RightTable R
+<b>ON</b> L.Column=R.Column
+</pre>
+
+#### Equi Join
+
+An equi join is the most common form of SQL inner join used in practice. If the join contains an equality operator e.g. `=` , then it’s an equi-join. 
+
+#### Theta join (Non-equi join)
+
+In general, this a Theta join used to specify operators or conditions (the ON clause in SQL). In practice, this is a rarely used SQL join types. In most cases, the join will use a non-equality condition e.g. `>`

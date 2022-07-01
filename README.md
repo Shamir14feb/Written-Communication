@@ -77,31 +77,47 @@ To change the data type of a column in a table, use the following syntax:
 </pre>
 
 
+
 5. TRUNCATE
 <pre>
 <b>TRUNCATE TABLE</b> table_name ; 
 </pre>
+The TRUNCATE TABLE command deletes the data inside a table, but not the table itself.
+
+
 
 6. DROP
 <pre>
 <b>DROP TABLE</b> table_name
 </pre>
+The DROP TABLE command deletes a table in the database.
+
+
 
 7. RENAME
 <pre>
 <b>RENAME TABLE</b> table_name <b>TO</b> new_table_name ;
 </pre>
+**`RENAME TABLE`** offers more flexibility. It allows renaming multiple tables in one statement. This can be useful when replacing a table with a new pre-populated version
+
+
 
 8. COMMENT
    - Single Line Comments
+   Single line comments start with `--`.
+   Any text between `--` and the end of the line will be ignored (will not be executed).
   ``` 
   --Line1; 
   ```
+  Multi-line comments start with `/*` and end with `*/`.
+  Any text between `/*` and `*/` will be ignored.
    - Multi-Line Comments
   ``` 
     /* Line1,
        Line2*/ 
   ```
+
+
 
 ###DLM Commands Syntax
 

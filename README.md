@@ -181,11 +181,11 @@ A SQL Join is a special form of generating a meaningful data by combining multip
  The various SQL join types are as follows
 
    1. SQL inner join
-       a. Equi join
-       b. Non-equi join (Theta join) 
+        a. Equi join
+        b. Non-equi join (Theta join) 
    2. SQL outer join
-       a. SQL left join or left outer join
-       b. SQL right join or right outer join
-       c. SQL full join or full outer join 
+        a. SQL left join or left outer join
+        b. SQL right join or right outer join
+        c. SQL full join or full outer join 
    3. SQL cross join
    4. SQL self join 

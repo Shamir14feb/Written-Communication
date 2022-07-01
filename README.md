@@ -122,10 +122,25 @@ The DROP TABLE command deletes a table in the database.
 
 ### DLM Commands Syntax
 
-1. INSERT 
+#### INSERT 
+The INSERT INTO statement is used to insert new records in a table.
+1. Specify both the column names and the values to be inserted:
 <pre>
 <b>INSERT INTO</b> table_name (column1, column2, ....) <b>VALUES</b> (value1, value2, ....);
 </pre>
+
+2. If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table. Here, the INSERT INTO syntax would be as follows:
+<pre>
+<b>INSERT INTO</b> table_name <b>VALUES</b> (value1, value2, ....);
+</pre>
+Example
+<pre>
+<b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (1,'Hansen','Ola','Timoteivn 10','Sandnes');
+<b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (2,'Svendson','Tove','Borgvn 23','Sandnes');
+<b>INSERT INTO</b> Persons (PersonId, LastName, FirstName, Address, City) <b>VALUES</b> (3,'Pettersen','Kari','Storgt 20','Stavanger');
+</pre>
+![Screenshot]()
+
 
 2. SELECT
 <pre>

@@ -16,13 +16,13 @@ SQl is a standard language for storing, manipulating and retrieving data in data
 ### Syntax help
 
 1. Create Database
-**`
-CREATE DATABASE`**` database_name ; 
-`
+<pre>
+<b>CREATE DATABASE</b> database_name ; 
+</pre>
 
 2. Use Database
 ``` 
-**USE** database_name 
+USE database_name 
 ```
 
 3. Create Table

@@ -123,7 +123,7 @@ The DROP TABLE command deletes a table in the database.
 ### DLM Commands Syntax
 
 #### INSERT 
-The INSERT INTO statement is used to insert new records in a table.
+The `INSERT INTO` statement is used to insert new records in a table.
 1. Specify both the column names and the values to be inserted:
 <pre>
 <b>INSERT INTO</b> table_name (column1, column2, ....) <b>VALUES</b> (value1, value2, ....);
@@ -142,7 +142,7 @@ Example
 
 
 2. SELECT
-- The SELECT statement is used to select data from a database.
+- The `SELECT` statement is used to select data from a database.
 - The data returned is stored in a result table, called the result-set.
 <pre>
 <b>SELECT</b> column1, column2, ....
@@ -156,11 +156,11 @@ Example
 <pre>
 <b>SELECT * FROM</b> Persons;
 </pre>
-The following SQL statement selects ALL the columns from the "Customers" table:
+The following SQL statement selects ALL the columns from the "Persons" table:
 ![Screenshot](https://github.com/Shamir14feb/Written-Communication/blob/main/Screenshot%20Insert%20Table.png?raw=true)
 
 3. UPDATE
-- The UPDATE statement is used to modify the existing records in a table.
+- The `UPDATE` statement is used to modify the existing records in a table.
 <pre>
 <b>UPDATE</b> table_name
 <b>SET</b> column1 = value1, column2 = value2
@@ -168,7 +168,7 @@ The following SQL statement selects ALL the columns from the "Customers" table:
 </pre>
 
 4. DELETE
-- The DELETE statement is used to delete existing records in a table.
+- The `DELETE` statement is used to delete existing records in a table.
 <pre>
 <b>DELETE FROM</b> table_name
 <b>WHERE</b> condition;

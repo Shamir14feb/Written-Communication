@@ -179,13 +179,12 @@ A `JOIN` clause is used to combine rows from two or more tables, based on a rela
 A SQL Join is a special form of generating a meaningful data by combining multiple tables relate to each other using a “Key”. Typically, relational tables must be designed with a unique column and this column is used to create relationships with one or more other tables. When you need a result-set that includes related rows from multiple tables, you’ll need to use SQL join on this column 
 
  The various SQL join types are as follows
-
-   1. SQL inner join
-        a. Equi join
-        b. Non-equi join (Theta join) 
-   2. SQL outer join
-        a. SQL left join or left outer join
-        b. SQL right join or right outer join
-        c. SQL full join or full outer join 
-   3. SQL cross join
-   4. SQL self join 
+1. SQL inner join
+    - Equi join
+    - Non-equi join (Theta join) 
+2. SQL outer join
+    - SQL left join or left outer join
+    - SQL right join or right outer join
+    - SQL full join or full outer join 
+3. SQL cross join
+4. SQL self join 
